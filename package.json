@@ -1,0 +1,34 @@
+{
+  "name": "tsoa-template",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "repository": "https://github.com/Darkystel/tsoa-template.git",
+  "author": "Darkystel <ibrahimelaradi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "backpack build",
+    "tsoa:gen": "tsoa spec-and-routes",
+    "dev": "backpack",
+    "start": "node dist/server.js"
+  },
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "tsoa": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.6.0",
+    "@types/passport-http-bearer": "^1.0.35",
+    "backpack-core": "^0.8.4",
+    "event-hooks-webpack-plugin": "^2.1.7",
+    "ts-loader": "^8.0.2",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  }
+}
